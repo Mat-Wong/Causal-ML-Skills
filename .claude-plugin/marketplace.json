@@ -1,0 +1,13 @@
+{
+  "name": "mat-wong-causal-ml",
+  "owner": {
+    "name": "Mat-Wong"
+  },
+  "plugins": [
+    {
+      "name": "causal-ml-skills",
+      "source": "./",
+      "description": "Causal ML and Double ML research skills: identification, estimator families, equations, tested code, reproducible runs and evidence audits."
+    }
+  ]
+}

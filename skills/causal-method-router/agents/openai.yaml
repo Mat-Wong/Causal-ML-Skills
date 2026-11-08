@@ -1,0 +1,6 @@
+interface:
+  display_name: "方法选择"
+  short_description: "方法选择：从研究问题、核心公式到代码运行和结果核验"
+  default_prompt: "Use $causal-method-router to choose an identification strategy and estimator for my data and target effect."
+policy:
+  allow_implicit_invocation: true

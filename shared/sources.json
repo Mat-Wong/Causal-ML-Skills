@@ -1,0 +1,80 @@
+{
+  "access_date": "2026-11-08",
+  "primary_user_sources": [
+    "https://www.microsoft.com/en-us/research/project/econml/",
+    "https://docs.doubleml.org/stable/index.html"
+  ],
+  "sources": [
+    {
+      "title": "Microsoft EconML project",
+      "url": "https://www.microsoft.com/en-us/research/project/econml/",
+      "purpose": "Project scope and official documentation entry"
+    },
+    {
+      "title": "DoubleML documentation",
+      "url": "https://docs.doubleml.org/stable/index.html",
+      "purpose": "Primary requested source"
+    },
+    {
+      "title": "EconML meta-learners",
+      "url": "https://www.pywhy.org/EconML/spec/estimation/metalearners.html",
+      "purpose": "S/T/X and inference limits"
+    },
+    {
+      "title": "EconML DML",
+      "url": "https://www.pywhy.org/EconML/spec/estimation/dml.html",
+      "purpose": "Residualization and DML family"
+    },
+    {
+      "title": "EconML DR",
+      "url": "https://www.pywhy.org/EconML/spec/estimation/dr.html",
+      "purpose": "Doubly robust pseudo-outcomes"
+    },
+    {
+      "title": "EconML forests",
+      "url": "https://www.pywhy.org/EconML/spec/estimation/forest.html",
+      "purpose": "Forest and local/global nuisance distinctions"
+    },
+    {
+      "title": "EconML OrthoIV API",
+      "url": "https://www.pywhy.org/EconML/_autosummary/econml.iv.dml.OrthoIV.html",
+      "purpose": "IV API and assumptions"
+    },
+    {
+      "title": "DoubleML models",
+      "url": "https://docs.doubleml.org/stable/guide/models.html",
+      "purpose": "PLR, IRM, PLIV, IIVM and other models"
+    },
+    {
+      "title": "DoubleML scores",
+      "url": "https://docs.doubleml.org/stable/guide/scores.html",
+      "purpose": "Orthogonal scores"
+    },
+    {
+      "title": "DoubleML resampling",
+      "url": "https://docs.doubleml.org/stable/guide/resampling.html",
+      "purpose": "Cross-fitting and repeated splits"
+    },
+    {
+      "title": "DoubleML heterogeneity",
+      "url": "https://docs.doubleml.org/stable/guide/heterogeneity.html",
+      "purpose": "CATE and GATE"
+    },
+    {
+      "title": "DoubleML cluster example",
+      "url": "https://docs.doubleml.org/stable/examples/py_double_ml_multiway_cluster.html",
+      "purpose": "Cluster-respecting folds and inference"
+    },
+    {
+      "title": "DoubleML sensitivity",
+      "url": "https://docs.doubleml.org/stable/guide/sensitivity.html",
+      "purpose": "Sensitivity analysis"
+    },
+    {
+      "title": "DML original paper",
+      "url": "https://arxiv.org/abs/1608.00060",
+      "purpose": "Orthogonalization and cross-fitting foundations"
+    }
+  ],
+  "authorship": "Original community synthesis and implementation; linked official documentation remains authoritative for its APIs."
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "结果报告"
+  short_description: "结果报告：从研究问题、核心公式到代码运行和结果核验"
+  default_prompt: "Use $causal-report to explain the completed causal analysis with formulas, estimates and limitations."
+policy:
+  allow_implicit_invocation: true

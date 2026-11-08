@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "skills": [
+    "causal-theory",
+    "causal-method-router",
+    "cml-estimators",
+    "dml-estimation",
+    "causal-code",
+    "causal-run",
+    "causal-heterogeneity",
+    "causal-audit",
+    "causal-report"
+  ],
+  "pack_files": 54,
+  "zip_bytes": 68376,
+  "zip_sha256": "09a90f0d6417156a0d2a6e9578684dc6cecfd4b4e0ee3c3e018e506d9ba31e0d",
+  "portable_references": true,
+  "scripts_standalone": true
+}

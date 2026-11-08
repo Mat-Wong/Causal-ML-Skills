@@ -1,0 +1,6 @@
+interface:
+  display_name: "DML模型与正交化"
+  short_description: "DML模型与正交化：从研究问题、核心公式到代码运行和结果核验"
+  default_prompt: "Use $dml-estimation to specify and explain a DML model, including its orthogonal score and cross-fitting."
+policy:
+  allow_implicit_invocation: true

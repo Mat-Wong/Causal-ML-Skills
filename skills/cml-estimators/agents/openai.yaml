@@ -1,0 +1,6 @@
+interface:
+  display_name: "CML流派与公式"
+  short_description: "CML流派与公式：从研究问题、核心公式到代码运行和结果核验"
+  default_prompt: "Use $cml-estimators to compare the applicable causal ML estimator families and explain their equations."
+policy:
+  allow_implicit_invocation: true

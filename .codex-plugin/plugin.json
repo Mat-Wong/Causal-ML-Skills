@@ -1,0 +1,7 @@
+{
+  "name": "causal-ml-skills",
+  "version": "0.1.0",
+  "description": "Causal ML and Double ML research skills: identification, estimator families, equations, tested code, reproducible runs and evidence audits.",
+  "repository": "https://github.com/Mat-Wong/Causal-ML-Skills",
+  "license": "MIT"
+}

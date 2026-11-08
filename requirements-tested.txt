@@ -1,0 +1,8 @@
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.15.3
+scikit-learn==1.6.1
+econml==0.16.0
+doubleml==0.10.1
+PyYAML>=6,<7
+pytest>=8,<9

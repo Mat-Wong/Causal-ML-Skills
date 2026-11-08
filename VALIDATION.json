@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "verified_date": "2026-11-08",
+  "python": "3.12.14",
+  "platform": "Windows",
+  "tests": {
+    "tests": 33,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0
+  },
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.6.1",
+    "econml": "0.16.0",
+    "doubleml": "0.10.1",
+    "pytest": "8.4.2",
+    "PyYAML": "6.0.3"
+  },
+  "skills": {
+    "causal-audit": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "causal-code": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "causal-heterogeneity": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "causal-method-router": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "causal-report": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "causal-run": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "causal-theory": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "cml-estimators": {
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    "dml-estimation": {
+      "valid": true,
+      "message": "Skill is valid!"
+    }
+  },
+  "tested_native": [
+    "joint-basis PLR",
+    "binary ATE AIPW"
+  ],
+  "tested_native_nuisance_learners": [
+    "ridge",
+    "random forest",
+    "histogram gradient boosting"
+  ],
+  "tested_doubleml": [
+    "PLR",
+    "IRM",
+    "PLIV",
+    "IIVM"
+  ],
+  "tested_econml": [
+    "S-learner",
+    "T-learner",
+    "X-learner",
+    "LinearDML",
+    "LinearDRLearner",
+    "CausalForestDML",
+    "OrthoIV",
+    "DMLIV"
+  ],
+  "test_scope": [
+    "synthetic coefficient recovery",
+    "numeric covariance comparison",
+    "out-of-fold and group separation",
+    "determinism",
+    "failure cases",
+    "official API smoke tests",
+    "standalone temporary-file CLI"
+  ],
+  "limits": [
+    "Synthetic tests do not establish causal identification on user data.",
+    "OrthoForest, DRIV and DeepIV are explained but not executed by the shipped adapter.",
+    "The library adapter uses iid inference; clustered score covariance is in the native runner.",
+    "Meta-learner and DMLIV adapter output has no fabricated inferential p-value."
+  ],
+  "script_sha256": {
+    "make_demo.py": "aae1f2e1db510aecdcce0547996513f5106a77abecb2185659b17f3f360f2e5f",
+    "run_library.py": "4b2955c90d135d93c3db6306e2d2c9d3e4c6d3152f1ab02f64c3091c1b30d60a",
+    "run_orthogonal.py": "c17dfa03c48b44c30e09d5c16ae2f973510f2552a8930ece6292e1914aa9e2e5"
+  }
+}
