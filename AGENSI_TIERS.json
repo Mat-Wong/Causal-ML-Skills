@@ -1,0 +1,48 @@
+{
+  "starter": {
+    "price": 0,
+    "title": "Causal ML Starter: Method Selector",
+    "skills": [
+      "causal-method-router"
+    ],
+    "files": 8,
+    "bytes": 8007,
+    "zip": "causal-ml-starter-v0.1.0.zip",
+    "sha256": "3b2fb40425e0120ec3d764bdf9e878fdb44f25d2ef94535227ad621f373158cc"
+  },
+  "essentials": {
+    "price": 2.99,
+    "title": "Causal ML Essentials: 6 Skills",
+    "skills": [
+      "causal-theory",
+      "causal-method-router",
+      "cml-estimators",
+      "dml-estimation",
+      "causal-code",
+      "causal-run"
+    ],
+    "files": 34,
+    "bytes": 43268,
+    "zip": "causal-ml-essentials-v0.1.0.zip",
+    "sha256": "08f937ff258e8d809a246534b2a491f151155594807896435f1760f2f7363982"
+  },
+  "complete": {
+    "price": 3.99,
+    "title": "Causal ML Complete: 9 Skills",
+    "skills": [
+      "causal-audit",
+      "causal-code",
+      "causal-heterogeneity",
+      "causal-method-router",
+      "causal-report",
+      "causal-run",
+      "causal-theory",
+      "cml-estimators",
+      "dml-estimation"
+    ],
+    "files": 46,
+    "bytes": 55063,
+    "zip": "causal-ml-complete-v0.1.0.zip",
+    "sha256": "5579f100f4e901a918c86145427bd48e3c5f1a1e0347e39471dcc6d27efacfe8"
+  }
+}
