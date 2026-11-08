@@ -1,4 +1,4 @@
-"""Synchronize portable skill references, validate structure, and package text-only Agensi ZIP."""
+"""Synchronize portable skill references, validate structure, and build a text-only ZIP."""
 from pathlib import Path
 import hashlib,json,re,zipfile
 import yaml
@@ -8,7 +8,6 @@ def prepare():
  for name,refs in M.items():
   skill=R/'skills'/name;entry=skill/'SKILL.md';s=entry.read_text(encoding='utf-8')
   s=re.sub(r'`../../shared/[^`]+\.md`','`references/'+refs[0]+'.md`',s,count=1)
-  s=s.replace('shared references are also supplied as text in the Agensi pack.','the skill includes its own required references for standalone installation.')
   s=s.replace('`../../shared/sources.json`','`references/sources.json`');entry.write_text(s,encoding='utf-8')
   dst=skill/'references';dst.mkdir(exist_ok=True)
   for f in [r+'.md' for r in refs]+['sources.json']:(dst/f).write_bytes((R/'shared'/f).read_bytes())
@@ -26,7 +25,7 @@ def prepare():
  for p in files:
   p.read_text(encoding='utf-8')
   if p.suffix=='.py':assert p.stat().st_size<20*1024
- dist=R/'dist';dist.mkdir(exist_ok=True);path=dist/'causal-ml-skills-agensi-v0.1.0.zip'
+ dist=R/'dist';dist.mkdir(exist_ok=True);path=dist/'causal-ml-skills-v0.1.0.zip'
  with zipfile.ZipFile(path,'w',zipfile.ZIP_DEFLATED) as z:
   for p in sorted(files):z.write(p,p.relative_to(R).as_posix())
  with zipfile.ZipFile(path) as z:assert z.testzip() is None and len([n for n in z.namelist() if n.endswith('/SKILL.md')])==9

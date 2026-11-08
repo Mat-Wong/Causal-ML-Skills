@@ -63,18 +63,6 @@ $$\Phi=(a,b,b^2,ab),\quad Y=\Phi^\top\beta+g(C)+\epsilon$$
 /plugin install causal-ml-skills@mat-wong-causal-ml
 ```
 
-### Agensi
-提供三个独立的skills ZIP，各自包含完整的对应模块及参考资料。
-
-| 版本 | 模块 | Agensi价格 |
-|---|---|---|
-| Starter | 方法选择，1个模块 | 免费 |
-| Essentials | 原理、选法、估计器、DML、代码、运行，6个模块 | $2.99 |
-| Complete | 全部9个模块 | $3.99 |
-
-GitHub公开完整MIT源码。Agensi提供按版本整理的分发包。
-Agensi的上传及交付方式见[官方打包说明](https://www.agensi.io/docs/packaging)。
-
 ## 跑通合成数据
 ```bash
 python -m venv .venv

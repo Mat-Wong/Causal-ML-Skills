@@ -7,9 +7,9 @@ Three standalone Python scripts are supplied in `skills/causal-code/scripts/`:
   restrictions enforced by the installed package version.
 - `make_demo.py`: deterministic synthetic data and config generator.
 
-Each script is self-contained. In Agensi, materialize a script unchanged into a temporary
-file, then pass explicit config/data/output paths. Do not copy an Agensi file lookup path
-into the user's analysis as though it were an existing local path.
+Each script is self-contained. A text-only delivery client can materialize a script unchanged
+into a temporary file, then pass explicit config/data/output paths. Resolve each delivered
+file to an actual local path before using it in an analysis.
 
 The GitHub distribution records a tested dependency set in `requirements-tested.txt`.
 Create a project-local virtual environment; keep the user's existing environments intact.
